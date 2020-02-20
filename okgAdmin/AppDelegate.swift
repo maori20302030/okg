@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  okg
+//  okgAdmin
 //
 //  Created by Omar Algrimeel on 2/20/20.
 //  Copyright © 2020 Maori. All rights reserved.

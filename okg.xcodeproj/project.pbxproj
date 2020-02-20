@@ -8,26 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		3CF0A6B623FF0FD00092D7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A6B523FF0FD00092D7BE /* AppDelegate.swift */; };
-		3CF0A6B823FF0FD00092D7BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A6B723FF0FD00092D7BE /* SceneDelegate.swift */; };
 		3CF0A6BA23FF0FD00092D7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A6B923FF0FD00092D7BE /* ViewController.swift */; };
 		3CF0A6BD23FF0FD00092D7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6BB23FF0FD00092D7BE /* Main.storyboard */; };
 		3CF0A6BF23FF0FD10092D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6BE23FF0FD10092D7BE /* Assets.xcassets */; };
 		3CF0A6C223FF0FD10092D7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6C023FF0FD10092D7BE /* LaunchScreen.storyboard */; };
+		3CF0A6D023FF112A0092D7BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A6CF23FF112A0092D7BE /* AppDelegate.swift */; };
+		3CF0A6D423FF112A0092D7BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF0A6D323FF112A0092D7BE /* ViewController.swift */; };
+		3CF0A6D723FF112A0092D7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6D523FF112A0092D7BE /* Main.storyboard */; };
+		3CF0A6DC23FF112B0092D7BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6DA23FF112B0092D7BE /* LaunchScreen.storyboard */; };
+		3CF0A6E223FF13AB0092D7BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF0A6BE23FF0FD10092D7BE /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3CF0A6B223FF0FD00092D7BE /* okg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF0A6B523FF0FD00092D7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3CF0A6B723FF0FD00092D7BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CF0A6B923FF0FD00092D7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3CF0A6BC23FF0FD00092D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3CF0A6BE23FF0FD10092D7BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF0A6C123FF0FD10092D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CF0A6C323FF0FD10092D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF0A6CD23FF112A0092D7BE /* okgAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = okgAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF0A6CF23FF112A0092D7BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF0A6D323FF112A0092D7BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CF0A6D623FF112A0092D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF0A6DB23FF112B0092D7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF0A6DD23FF112B0092D7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CF0A6AF23FF0FD00092D7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF0A6CA23FF112A0092D7BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +56,9 @@
 		3CF0A6A923FF0FD00092D7BE = {
 			isa = PBXGroup;
 			children = (
+				3CF0A6E123FF13570092D7BE /* Shared */,
 				3CF0A6B423FF0FD00092D7BE /* okg */,
+				3CF0A6CE23FF112A0092D7BE /* okgAdmin */,
 				3CF0A6B323FF0FD00092D7BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF0A6B223FF0FD00092D7BE /* okg.app */,
+				3CF0A6CD23FF112A0092D7BE /* okgAdmin.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,14 +76,32 @@
 			isa = PBXGroup;
 			children = (
 				3CF0A6B523FF0FD00092D7BE /* AppDelegate.swift */,
-				3CF0A6B723FF0FD00092D7BE /* SceneDelegate.swift */,
 				3CF0A6B923FF0FD00092D7BE /* ViewController.swift */,
 				3CF0A6BB23FF0FD00092D7BE /* Main.storyboard */,
-				3CF0A6BE23FF0FD10092D7BE /* Assets.xcassets */,
 				3CF0A6C023FF0FD10092D7BE /* LaunchScreen.storyboard */,
 				3CF0A6C323FF0FD10092D7BE /* Info.plist */,
 			);
 			path = okg;
+			sourceTree = "<group>";
+		};
+		3CF0A6CE23FF112A0092D7BE /* okgAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0A6CF23FF112A0092D7BE /* AppDelegate.swift */,
+				3CF0A6D323FF112A0092D7BE /* ViewController.swift */,
+				3CF0A6D523FF112A0092D7BE /* Main.storyboard */,
+				3CF0A6DA23FF112B0092D7BE /* LaunchScreen.storyboard */,
+				3CF0A6DD23FF112B0092D7BE /* Info.plist */,
+			);
+			path = okgAdmin;
+			sourceTree = "<group>";
+		};
+		3CF0A6E123FF13570092D7BE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0A6BE23FF0FD10092D7BE /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +124,23 @@
 			productReference = 3CF0A6B223FF0FD00092D7BE /* okg.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3CF0A6CC23FF112A0092D7BE /* okgAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF0A6DE23FF112B0092D7BE /* Build configuration list for PBXNativeTarget "okgAdmin" */;
+			buildPhases = (
+				3CF0A6C923FF112A0092D7BE /* Sources */,
+				3CF0A6CA23FF112A0092D7BE /* Frameworks */,
+				3CF0A6CB23FF112A0092D7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = okgAdmin;
+			productName = okgAdmin;
+			productReference = 3CF0A6CD23FF112A0092D7BE /* okgAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +152,9 @@
 				ORGANIZATIONNAME = Maori;
 				TargetAttributes = {
 					3CF0A6B123FF0FD00092D7BE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3CF0A6CC23FF112A0092D7BE = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -116,6 +173,7 @@
 			projectRoot = "";
 			targets = (
 				3CF0A6B123FF0FD00092D7BE /* okg */,
+				3CF0A6CC23FF112A0092D7BE /* okgAdmin */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +189,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3CF0A6CB23FF112A0092D7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF0A6DC23FF112B0092D7BE /* LaunchScreen.storyboard in Resources */,
+				3CF0A6E223FF13AB0092D7BE /* Assets.xcassets in Resources */,
+				3CF0A6D723FF112A0092D7BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,7 +208,15 @@
 			files = (
 				3CF0A6BA23FF0FD00092D7BE /* ViewController.swift in Sources */,
 				3CF0A6B623FF0FD00092D7BE /* AppDelegate.swift in Sources */,
-				3CF0A6B823FF0FD00092D7BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF0A6C923FF112A0092D7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF0A6D423FF112A0092D7BE /* ViewController.swift in Sources */,
+				3CF0A6D023FF112A0092D7BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +235,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3CF0A6C123FF0FD10092D7BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF0A6D523FF112A0092D7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF0A6D623FF112A0092D7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF0A6DA23FF112B0092D7BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF0A6DB23FF112B0092D7BE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -287,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 744HX28NP9;
 				INFOPLIST_FILE = okg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,11 +398,48 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 744HX28NP9;
 				INFOPLIST_FILE = okg/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.okg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF0A6DF23FF112B0092D7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 744HX28NP9;
+				INFOPLIST_FILE = okgAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.okgAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF0A6E023FF112B0092D7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 744HX28NP9;
+				INFOPLIST_FILE = okgAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.okgAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,6 +463,15 @@
 			buildConfigurations = (
 				3CF0A6C723FF0FD10092D7BE /* Debug */,
 				3CF0A6C823FF0FD10092D7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF0A6DE23FF112B0092D7BE /* Build configuration list for PBXNativeTarget "okgAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF0A6DF23FF112B0092D7BE /* Debug */,
+				3CF0A6E023FF112B0092D7BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
